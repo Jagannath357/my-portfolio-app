@@ -5,8 +5,11 @@ function About() {
                 <div className="row gap-5">
                     <div className="col-12">
                         <h1 className="text-center">About Me</h1>
-                        <p className="text-center fs-5">
-                            I'm a passionate full-stack developer with 3+ years of experience creating web applications that solve real-world problems. I love working with modern technologies and am always eager to learn new things.
+                        <p className="ps-2 pe-2 text-center fs-5">
+                            {/* I'm a passionate full-stack developer with 3+ years of experience creating web applications that solve real-world problems. I love working with modern technologies and am always eager to learn new things. */}
+                            I'm currently pursuing a degree in Computer Science, and over the past year, I've developed a strong passion for front-end development. I enjoy transforming design concepts into clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, and React.
+                            I've built several personal projects, including my own portfolio website, a to-do list app, and a personal expense tracker. I also collaborated with a team to redesign a university club’s website, which helped me strengthen my teamwork and communication skills.
+
                         </p>
                     </div>
                     <div className="col-md-12">

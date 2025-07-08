@@ -124,7 +124,7 @@ const handleToggle = () => {
                     
                 </div>
             </div>
-          <div ref={refOne}><Home /></div>
+          <div ref={refOne}><Home navigateContact={{refFive,refFour}} setNavigateContact={scrollTo}/></div>
           <div ref={refTwo}><About /></div>
           <div ref={refThree}><Skills /></div>
           <div ref={refFour} id="hello"><Projects /></div>

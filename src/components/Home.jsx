@@ -1,5 +1,5 @@
 import Profile from '../assets/images/Jagannath.jpg'
-function Home() {
+function Home(props) {
     return ( 
         <div className="hero w-100">
             <div className="container" >
@@ -8,8 +8,8 @@ function Home() {
                         <h1>Hi, I'm <span className="text-warning">Jagannath Padhi</span></h1>
                         <p className='text-light'>Full Stack Developer passionate about creating innovative web solutions</p>
                         <div className="d-flex touch">
-                            <button type="button" className="btn btn-warning btn">Vew My Work</button>
-                            <button type="button" className="btn btn-outline-light ms-sm-5" id='mom'>Get In Touch</button>
+                            <button type="button" className="btn btn-warning btn" onClick={() => props.setNavigateContact(props.navigateContact.refFour)}>Vew My Work</button>
+                            <button type="button" className="btn btn-outline-light ms-sm-5" id='mom' onClick={() => props.setNavigateContact(props.navigateContact.refFive)}>Get In Touch</button>
                         </div>
                     </div>
                     <div className="col-sm-2" id='profileImage'>

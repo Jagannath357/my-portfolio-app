@@ -1,17 +1,19 @@
 import ProjectCard from "./ProjectCard";
-
+import Project1 from "../assets/images/project1.png";
+import Project2 from "../assets/images/project2.png";
+import Project3 from "../assets/images/project3.png";
 function Projects() {
     const cardArr = [
         {name:"E-commerce Plartform",
-            "image":"../assets/images/project1.png",
+            image:Project1,
             description:"Full—stack web application bujtt With React. Node.js,and MongoDB",
             skills:["React","Node.js","MongoDB","Express"]},
         {name:"Task Management App",
-            "image":"../assets/images/project2.png",
+            image:Project2,
             description:"Responstve mobile—first application with real—umeupdates",
             skills:["React Native","Firebase","Redux"]},
         {name:"Data Visualization Dashboard",
-            "image":"../assets/images/project3.png",
+            image:Project3,
             description:"Interactive dashboard for business analytics andreporting",
             skills:["Dj.js","Python","Flask","PostgreSQL"]}
     ]
@@ -23,7 +25,7 @@ function Projects() {
                     {
                         cardArr.map((element,idx)=>{
                             console.log(idx);
-                            return <ProjectCard key={idx} index={idx} name={element.name} look={element.image} desc={element.description} skills={element.skills} />
+                            return <ProjectCard key={idx} name={element.name} look={element.image} desc={element.description} skills={element.skills} />
                         })
                     }
                 </div>

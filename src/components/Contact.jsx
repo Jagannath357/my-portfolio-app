@@ -28,7 +28,7 @@ function Contact() {
                     <Link to="https://x.com/PadhiJagan96121">
                     <button type="button" className="btn btn-outline-light contact-btn">Twitter</button></Link>
                 </div>
-                <div className="w-100 bg-secondary mt-3 p-3 text-center">@ 2025 Jom Doe. All rights reserved.</div>
+                <div className="w-100 bg-secondary mt-3 p-3 text-center">@ 2025 Jagannath Padhi. All rights reserved.</div>
             </div>
         </div>
      );
